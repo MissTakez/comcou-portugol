@@ -19,9 +19,10 @@ programa
 				C[l][c] = A[l][c] + B[l][c] //a coluna de C sera o resultado da coluna de A + coluna de B, assim como, a linha de C será o resultado da linha de A + a linha de B 
 				//Vamos salvar o resultados na matriz C
 				// l e c são posições
-				escreva (A[l][c], " ")
+				escreva (A[l][c], " ")//essas " " com espeço dará espaço no nosso resultado
 								}
-				escreva ("\n")
+				escreva ("\n")//esse espaço é importante para que cada finalização de sequencia de l ele vá para a linha de baixo e precisa vir depois do fechamento do para de dentro (ou seja, no para de l).
+
 							}		
 		
 		escreva ("\nMatriz B: \n")
@@ -32,7 +33,7 @@ programa
 				// l e c são posições
 				escreva (B[l][c], " ")
 								}
-				escreva ("\n")				
+				escreva ("\n")//esse espaço é importante para que cada finalização de sequencia de l ele vá para a linha de baixo e precisa vir depois do fechamento do para de dentro (ou seja, no para de l).				
 							}
 		
 		escreva ("\nMatriz C (A + B): \n")
@@ -40,11 +41,9 @@ programa
 		para (l = 0; l < 3; l++){
 			para (c = 0; c < 3; c++){
 				escreva (C[l][c], " ") //essas " " com espeço dará espaço no nosso resultado
-			}	
-				// quando o para interno terminar, significa que a sequencia de l foi finalizada, logo
-				escreva ("\n")//esse espaço é importante para que cada finalização de sequencia de l, ele vá para a linha de baixo
-
-						}
+								}	
+								escreva ("\n")//esse espaço é importante para que cada finalização de sequencia de l ele vá para a linha de baixo e precisa vir depois do fechamento do para de dentro (ou seja, no para de l).
+							}
 				
 	}
 }		
