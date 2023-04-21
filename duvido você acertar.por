@@ -1,5 +1,8 @@
 programa
 {
+	//**Esse jogo é versão 1 do "Duvido você acertar!"**
+	//O jogador precisa descobrir o número sem dicas e apenas em 1 tentativa.
+	
 	inclua biblioteca Util --> u
 	
 		funcao inicio()
