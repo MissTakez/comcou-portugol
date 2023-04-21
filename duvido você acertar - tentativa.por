@@ -36,16 +36,16 @@ programa
 				palpite = palpite + 1
 												
 				//verificando o resultado
-				se (tentativa == 0){
+				se(numUser == numComp){
+				escreva ("\nParabéns, ",nome,"!! Você acertou na " , palpite,"ª tentativa o número ", numComp, "! \n")
+				pare
+				}
+								
+				senao se (tentativa == 0){
 				escreva ("\nAh não acertou! Eu tinha pensado no número ", numComp, "!\nMais sorte na próxima!\n********beijos********\n\n")
 				pare
 				}
-				
-				se(numUser == numComp){
-				escreva ("\nParabéns, ",nome,"!! Você acertou na " , palpite,"ª tentativa! \n")
-				pare
-				}
-				
+											
 				senao se(numUser > numComp){
 				escreva  ("Tentativa ", palpite, ": ",numUser,"\n")
 				escreva ("O número que eu escolhi é menor que " ,numUser, "!\nVocê tem mais ", tentativa, " tentativas.\n")
@@ -59,6 +59,7 @@ programa
 			}
 		}
 	}
+	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
