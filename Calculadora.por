@@ -22,7 +22,7 @@ programa
 		idadeResultado = anoCalcular - anoNascimento
 		
 		//resultado
-		escreva("Você terá: ", idadeResultado, " anos!")
+		escreva("\nVocê terá: ", idadeResultado, " anos!")
 
 		//condições para personalizar o resultado
 		se (idadeResultado < 0)
