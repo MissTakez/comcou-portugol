@@ -1,5 +1,6 @@
 programa
-{
+{	
+	//Jogo marotinho onde é possível viver consequências diferentes para cada tipo de ação.
 	
 	funcao inicio()
 	{
