@@ -22,11 +22,11 @@ leia (x)
 			
       //condições para responder
 			se (divisores == 2){// número de divisores, pois números primos só são divíseis por 1 e ele mesmo.
-				escreva (x, " é número primo!\n")
+				escreva (x, " é um número primo!\n")
 							}
 		
 			senao{
-				escreva (x, " não é número primo!\n")
+				escreva (x, " não é um número primo!\n")
 				}
 			}		
 		senao{
