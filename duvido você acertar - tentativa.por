@@ -1,5 +1,5 @@
 programa
-{	//esse jogo é versão 2 do "Duvido você acertar. 
+{	//**Esse jogo é versão 2 do "Duvido você acertar!"**
 	// Aqui, além de você ter que descobrir o número, ainda tem limite de tentativas, levando ao fim do jogo caso o jogador não consiga acertar.
 	
 	inclua biblioteca Util --> u
