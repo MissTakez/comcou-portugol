@@ -1,6 +1,7 @@
 programa
 {
-	//soma de matrizes e salvar o resultado em uma terceira matriz
+	
+//soma de matrizes e salvar o resultado em uma terceira matriz
 	
 	funcao inicio()
 	{
@@ -9,13 +10,14 @@ programa
 		inteiro C [3][3], B [3][3] = {{9,8,7},{6,5,4},{3,2,1}}
 			
 		
-		//algorítimo
+		//algorítimo - lembrando que l e c começa em 0, por isso que é sempre < nº de linhas e colunas
 		para (l = 0; l < 3; l++){//linha começando em zero, indo até menor que 3, de um em um (incrementeo de um em um). - percorrer as linhas, 
 			para (c = 0; c < 3; c++){//coluna começando em zero, indo até menor que 3, de um em um (incrementeo de um em um). - percorrer colunas 
 				C[l][c] = A[l][c] + B[l][c] //a coluna de C sera o resultado da coluna de A + coluna de B, assim como, a linha de C será o resultado da linha de A + a linha de B 
 				//Vamos salvar o resultados na matriz C
 				// l e c são posições
-								}
+
+								}
 							}
 
 		//cálculo
