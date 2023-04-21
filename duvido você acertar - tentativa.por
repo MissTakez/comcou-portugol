@@ -1,5 +1,7 @@
 programa
-{
+{	//esse jogo é versão 2 do "Duvido você acertar. 
+	// Aqui, além de você ter que descobrir o número, ainda tem limite de tentativas, levando ao fim do jogo caso o jogador não consiga acertar.
+	
 	inclua biblioteca Util --> u
 
 		funcao inicio()
@@ -7,8 +9,8 @@ programa
 		cadeia nome
 		inteiro numComp
 		inteiro numUser
-		inteiro tentativa = 5
-		inteiro palpite = 0
+		inteiro tentativa = 5//número inicial de tentativas
+		inteiro palpite = 0//número inicial de palpites
 				
 		//sorteio
 		
@@ -19,13 +21,15 @@ programa
 		escreva ("Qual é o seu nome?\n")
 		leia (nome)
 
+		//Interação e explicação do jogo
 		escreva ("\n", nome, ", escolhi um número de 0 a 100. Em quantas tentativas você acerta?\n****Você terá 5 tentativas!****\n")
+		
+		//Sorteio de números
 		numComp = u.sorteia(1,100)	
 
 		escreva ("\nQual o número que eu escolhi?\n")
 		
-		//jogo	
-		
+		//jogo
 		enquanto (tentativa <= 5){
 				leia (numUser)
 				tentativa = tentativa - 1
