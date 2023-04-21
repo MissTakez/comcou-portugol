@@ -42,7 +42,7 @@ programa
 				}
 								
 				senao se (tentativa == 0){
-				escreva ("\nAh não acertou! Eu tinha pensado no número ", numComp, "!\nMais sorte na próxima!\n********beijos********\n\n")
+				escreva ("\nAh, você não acertou! Eu tinha pensado no número ", numComp, "!\nMais sorte na próxima!\n********beijos********\n\n")
 				pare
 				}
 											
