@@ -3,18 +3,28 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Com quantos anos estarei em?\n")
-		escreva ("Digite o ano que você nasceu:")
 		inteiro anoNascimento
-		leia(anoNascimento)
-		escreva("\n")
 		inteiro anoCalcular
-		escreva ("Digite anos posteriores ao seu nascimento:")
-		leia(anoCalcular)
 		inteiro idadeResultado
+
+		//introdução
+		escreva("Com quantos anos estarei em?\n")
+		
+		//interação 1
+		escreva ("Digite o ano que você nasceu:")
+		leia(anoNascimento)
+		
+		//interação 2
+		escreva ("\nDigite anos posteriores ao seu nascimento:")
+		leia(anoCalcular)
+		
+		//cálculo
 		idadeResultado = anoCalcular - anoNascimento
+		
+		//resultado
 		escreva("Você terá: ", idadeResultado, " anos!")
 
+		//condições para personalizar o resultado
 		se (idadeResultado < 0)
 		{
 		escreva ("  Se não reencanou nesse planeta ainda, não vale!")
