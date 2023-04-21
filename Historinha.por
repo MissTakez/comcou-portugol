@@ -75,14 +75,17 @@ programa
 					}
 						leia (saida)
 
+							//primeira resposta																    	 		
 							se (saida == "buraco"){
 							escreva ("\nA porta é super apertada mas DEU CERTO! \nAe, saimos sem um arranhão!! Que maravilha! \nIsso que é um combate emocionante, né ", nome, "?! \nA gente não aposta pra perder! \nParabrains!")
 							}
-														
+							
+							//segunda resoista
 							senao se (saida == "o buraco"){
 							escreva ("\nOH MEU DEUS! CADÊ MINHAS PEDRAS!\nAAAAAH!! \n\nMorremos NÃÃÃÃÃO! Acho quer era sem artigo ", nome, "! Mas agora Inês é morta, vamos tentar não acordar o dragão da próxima!\nGAME OVER")
 							}
-																																	
+							
+							//consequencia resposta errada
 							senao{
 							escreva("\nOH MEU DEUS! CADÊ MINHAS PEDRAS!\nAAAAAAH NÃÃÃÃÃO! \n\nMorremos ", nome, "! Ficar de gracinha com um dragão na sala e não focar no enigma nunca é uma boa ideia!\nGAME OVER")
 							}
