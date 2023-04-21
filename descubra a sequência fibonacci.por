@@ -5,18 +5,22 @@ programa
 	{
 		inteiro num
 		inteiro a , b, c, contador = 0
-			
+		
+		//info - se colocássemos a = 0 e b igual a 1, não seria possível fazer a sequência a partir do 0, uma vez que 0 + 1 = 1, então o primeiro termo sairia errado. 
 		a = -1 
 		b = 1
 				 
 		escreva ("Até qual termo você quer a sequência Fibonacci? \n")
 		leia (num)
-
+			
+			//cálculo
 			enquanto (contador < num){
 				c = a + b// sabendo isso
 				a = b
 				b = c
-				contador++ // não exatamente para que serve, mas ele faz a contagem parar! lol se não colocar ele vai eternamente!
+				contador++ // não exatamente para que serve, mas perebi que ele faz a contagem parar! lol se não colocar ele vai eternamente!
+				
+				//resultado
 				escreva (c,",")
 				
 				
