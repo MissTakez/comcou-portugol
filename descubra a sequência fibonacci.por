@@ -1,5 +1,6 @@
 programa
 {
+	//coloque o termo e recebea a sequencia Fibonacci.
 	
 	funcao inicio()
 	{
