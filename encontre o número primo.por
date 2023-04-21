@@ -1,6 +1,7 @@
 programa
 {
-		
+	//algorítmo para descobrir se um número é primo ou não.
+	
 	funcao inicio()
 	{
 		//lógia
