@@ -8,10 +8,11 @@ programa
 
 		//questão
 		escreva("Esse número é primo?\n")
-		leia (x)
+		
+leia (x)
 
 		//algoritmo
-		se ( x >0){
+		se ( x > 0){
 			enquanto (valor <= x){
 				se (x % valor == 0){ // % dará o resto da divisão
 					divisores ++ //divisor +1	 
@@ -19,10 +20,11 @@ programa
 				valor++ //valor +1
 							}
 			
-			se (divisores == 2){// número de divisores, pois números primos só são divísei por 1 e ele mesmo.
+      //condições para responder
+			se (divisores == 2){// número de divisores, pois números primos só são divíseis por 1 e ele mesmo.
 				escreva (x, " é número primo!\n")
 							}
-			
+		
 			senao{
 				escreva (x, " não é número primo!\n")
 				}
