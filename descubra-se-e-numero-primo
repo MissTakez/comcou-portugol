@@ -9,33 +9,39 @@ programa
 
 		//questão
 		escreva("Esse número é primo?\n")
-		
-leia (x)
+		leia (x)
 
 		//algoritmo
-		se ( x > 0){
-			enquanto (valor <= x){
-				se (x % valor == 0){ // % dará o resto da divisão
+		se ( x > 0)
+		{
+			enquanto (valor <= x)
+			{
+				se (x % valor == 0) // % dará o resto da divisão
+				{ 	
 					divisores ++ //divisor +1	 
-								}
-				valor++ //valor +1
-							}
-			
-      //condições para responder
-			se (divisores == 2){// número de divisores, pois números primos só são divíseis por 1 e ele mesmo.
-				escreva (x, " é um número primo!\n")
-							}
-		
-			senao{
-				escreva (x, " não é um número primo!\n")
 				}
-			}		
-		senao{
-		escreva ("Valor negativo ou igual a zero não vale néééééé! \n")
+				
+				valor++ //valor +1
 			}
+			
+      				//condições para responder
+				se (divisores == 2) // número de divisores, pois números primos só são divíseis por 1 e ele mesmo.
+				{
+					escreva (x, " é um número primo!\n")
+				}
+				senao
+				{
+					escreva (x, " não é um número primo!\n")
+				}
+		}		
+				senao
+				{
+					escreva ("Valor negativo ou igual a zero não vale néééééé! \n")
+				}
 		
-			}
+	}
 }
+	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
