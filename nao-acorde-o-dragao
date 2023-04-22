@@ -21,10 +21,10 @@ programa
 		leia (jogar)
 
 		//primeira escolha a
-			enquanto (jogar != "sim")		
+		enquanto (jogar != "sim")		
 		{
-		escreva ("Desculpa, eu só entendo sim!! Manda aquele sim!!\n")	
-		leia(jogar)
+			escreva ("Desculpa, eu só entendo sim!! Manda aquele sim!!\n")	
+			leia(jogar)
 		}
 	
 		//primeira escolha b
@@ -33,63 +33,66 @@ programa
 			escreva ("OBA! Então bora! Uma breve experiência de combate! Você encontrou um dragão furiosamente gigantesco, mas ele está dormindo. Tem três coisas na mesa. Quer ver? Diga quero, qualquer outra coisa eu vou levar como não!!\n")
 		}
 
+		leia (olharMesa)
+				
+		//segunda escolha a												
+		enquanto (olharMesa == "quero")
+		{
+			escreva ("Choose your destiny: \n(1) Machado\t(2) Espelho\t(3) Serra Elétrica \n")			
+		     	leia (armas)
+		    		
+			//escolhas dentro de a												
+			escolha (armas)
+			{
+				caso 1: escreva ("Morremos ", nome, "! Jura que você achou que ia matar um dragão comm o machado?\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")
+			     	pare
+			     	caso 2: escreva ("Morremos ", nome, "! Mas a auto estima do dragão tá lá em cima! Arrasou!\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")
+			     	pare
+			     	caso 3: escreva ("Morremos! Serra elétrica e dragão na mesma história? Tá achando que aqui é Sharknado ", nome, "?\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")		
+				pare
+				caso contrario: escreva ("Que morte prematura!! Mal enfrentou o dragão ", nome, "! Meus sentimentos.\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")
+			}
 			leia (olharMesa)
+		}
 				
-				//segunda escolha a												
-				enquanto (olharMesa == "quero")
-				{
-					escreva ("Choose your destiny: \n(1) Machado\t(2) Espelho\t(3) Serra Elétrica \n")			
-			     	leia (armas)
-			     		
-			     		//escolhas dentro de a												
-			     		escolha (armas){
-			     		caso 1: escreva ("Morremos ", nome, "! Jura que você achou que ia matar um dragão comm o machado?\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")
-			     		pare
-			     		caso 2: escreva ("Morremos ", nome, "! Mas a auto estima do dragão tá lá em cima! Arrasou!\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")
-			     		pare
-			     		caso 3: escreva ("Morremos! Serra elétrica e dragão na mesma história? Tá achando que aqui é Sharknado ", nome, "?\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")		
-						pare
-						caso contrario: escreva ("Que morte prematura!! Mal enfrentou o dragão ", nome, "! Meus sentimentos.\nAinda bem que eu trouxe a pedra da ressurreição!\nProntinho\n\nAgora vai, digite quero para tentar de novo e qualquer coisa para ver ao redor.\n")
-					}
-					leia (olharMesa)
-				}
-				
-				//segunda escolha b																    	
-			     se (olharMesa != "quero")
-				{	
-					escreva ("Caramba, sem nada! Isso é que é coragem! Mas olha ali, tem alguma coisa! Quer ver o que é? Diga opa para tentar ", nome, "!! Pode ser sua chance!\n")
-				}
-					leia (porta)
+		//segunda escolha b																    	
+		se (olharMesa != "quero")
+		{	
+			escreva ("Caramba, sem nada! Isso é que é coragem! Mas olha ali, tem alguma coisa! Quer ver o que é? Diga opa para tentar ", nome, "!! Pode ser sua chance!\n")
+		}
+		leia (porta)
 
-				//terceira escolha a																    	
-				se (porta != "opa")
-				
-					 {			
-						escreva ("Que campainha é essa? PQP ACORDOU O DRAGRÃO! \n")
-						escreva ("Rápido ", nome, "? Tem uma coisa ali na parede. Acho que pode ser uma saída! Merda, tem um enígma, vou ter que ler rápido, estamos sem tempo: \nO que é que quanto mais você tira, mais você tem?!\n")
-					 }
+		//terceira escolha a																    	
+		se (porta != "opa")
+		{			
+			escreva ("Que campainha é essa? PQP ACORDOU O DRAGRÃO! \n")
+			escreva ("Rápido ", nome, "? Tem uma coisa ali na parede. Acho que pode ser uma saída! Merda, tem um enígma, vou ter que ler rápido, estamos sem tempo: \nO que é que quanto mais você tira, mais você tem?!\n")
+		}
 					  
-					//terceira escolha b																    	 		
-					se (porta == "opa")
-					{
-						escreva ("A porta parece trancada! OMG, é um enigma!\nQue belo soninho hein caro dragão! Ainda bem que temos tempo!\nO que é que quanto mais você tira, mais você tem?\nOlha tem umas letras miúdas aqui\nsem artigo\nO que será que isso quer dizer?\n")
-					}
-						leia (saida)
+		//terceira escolha b																    	 		
+		se (porta == "opa")
+		{
+			escreva ("A porta parece trancada! OMG, é um enigma!\nQue belo soninho hein caro dragão! Ainda bem que temos tempo!\nO que é que quanto mais você tira, mais você tem?\nOlha tem umas letras miúdas aqui\nsem artigo\nO que será que isso quer dizer?\n")
+		}
+		leia (saida)
 
-							//primeira resposta																    	 		
-							se (saida == "buraco"){
-							escreva ("\nA porta é super apertada mas DEU CERTO! \nAe, saimos sem um arranhão!! Que maravilha! \nIsso que é um combate emocionante, né ", nome, "?! \nA gente não aposta pra perder! \nParabrains!")
-							}
-							
-							//segunda resoista
-							senao se (saida == "o buraco"){
-							escreva ("\nOH MEU DEUS! CADÊ MINHAS PEDRAS!\nAAAAAH!! \n\nMorremos NÃÃÃÃÃO! Acho quer era sem artigo ", nome, "! Mas agora Inês é morta, vamos tentar não acordar o dragão da próxima!\nGAME OVER")
-							}
-							
-							//consequencia resposta errada
-							senao{
-							escreva("\nOH MEU DEUS! CADÊ MINHAS PEDRAS!\nAAAAAAH NÃÃÃÃÃO! \n\nMorremos ", nome, "! Ficar de gracinha com um dragão na sala e não focar no enigma nunca é uma boa ideia!\nGAME OVER")
-							}
+		//primeira resposta																    	 		
+		se (saida == "buraco")
+		{
+			escreva ("\nA porta é super apertada mas DEU CERTO! \nAe, saimos sem um arranhão!! Que maravilha! \nIsso que é um combate emocionante, né ", nome, "?! \nA gente não aposta pra perder! \nParabrains!")
+		}
+		
+		//segunda resposta
+		senao se (saida == "o buraco")
+		{
+			escreva ("\nOH MEU DEUS! CADÊ MINHAS PEDRAS!\nAAAAAH!! \n\nMorremos NÃÃÃÃÃO! Acho quer era sem artigo ", nome, "! Mas agora Inês é morta, vamos tentar não acordar o dragão da próxima!\nGAME OVER")
+		}
+		
+		//consequencia resposta errada
+		senao
+		{
+			escreva("\nOH MEU DEUS! CADÊ MINHAS PEDRAS!\nAAAAAAH NÃÃÃÃÃO! \n\nMorremos ", nome, "! Ficar de gracinha com um dragão na sala e não focar no enigma nunca é uma boa ideia!\nGAME OVER")
+		}
 					
 	}
 }
