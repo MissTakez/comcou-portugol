@@ -14,23 +14,19 @@ programa
 		escreva ("Até qual termo você quer a sequência Fibonacci? \n")
 		leia (num)
 			
-			//cálculo
-			enquanto (contador < num){
-				c = a + b// sabendo isso
-				a = b
-				b = c
-				contador++ // não exatamente para que serve, mas perebi que ele faz a contagem parar! lol se não colocar ele vai eternamente!
-				
-				//resultado
-				escreva (c,",")
-				
-				
+		//cálculo
+		enquanto (contador < num)
+		{
+			c = a + b// sabendo isso
+			a = b
+			b = c
+			contador++ // não exatamente para que serve, mas perebi que ele faz a contagem parar! lol se não colocar ele vai eternamente!
+			
+			//resultado
+			escreva (c,",")
 		}
 	}
-	}
-	
-
-	
+}	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
