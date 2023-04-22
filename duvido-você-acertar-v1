@@ -5,7 +5,7 @@ programa
 	
 	inclua biblioteca Util --> u
 	
-		funcao inicio()
+	funcao inicio()
 	{
 		cadeia nome
 		inteiro numComp
@@ -25,11 +25,13 @@ programa
 		leia (numUser)
 
 		//resultado
-		se (numUser == numComp){
+		se (numUser == numComp)
+		{
 			escreva ("\nParabéns, ",nome,"!! Você acertou!\n")
 		}
 
-		senao{
+		senao
+		{
 			escreva ("Ah, você errou ", nome, ":(. Eu pensei no ", (numComp), "!") 
 		}
 		
