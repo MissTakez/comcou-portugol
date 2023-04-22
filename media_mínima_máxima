@@ -16,7 +16,7 @@ programa
 		//preenchimento da info temp[12]
 		para (x = 0; x < 12; x++)
 		{
-			escreva("Informe a temperatura média do mês " , mes[x], ":")
+			escreva("Informe a temperatura média do mês de " , mes[x], ":")
 			leia (temp[x])
 			
 			//cálculo da média
@@ -46,14 +46,3 @@ programa
 		escreva ("Temperatura média anual: ",media, "°C \nTemperatura máxima: ", max, "°C.\nTemperatura mínima: ", menor, "°C.")
 	}
 }			
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1004; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {mes, 11, 9, 3}-{temp, 12, 10, 4}-{max, 12, 20, 3}-{menor, 12, 25, 5}-{media, 13, 7, 5};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
