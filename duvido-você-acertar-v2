@@ -4,7 +4,7 @@ programa
 	
 	inclua biblioteca Util --> u
 
-		funcao inicio()
+	funcao inicio()
 	{	
 		cadeia nome
 		inteiro numComp
@@ -30,35 +30,40 @@ programa
 		escreva ("\nQual o número que eu escolhi?\n")
 		
 		//jogo
-		enquanto (tentativa <= 5){
-				leia (numUser)
-				tentativa = tentativa - 1
-				palpite = palpite + 1
+		enquanto (tentativa <= 5)
+		{
+			leia (numUser)
+			tentativa = tentativa - 1
+			palpite = palpite + 1
 												
-				//verificando o resultado
-				se(numUser == numComp){
+			//verificando o resultado
+			se(numUser == numComp)
+			{
 				escreva ("\nParabéns, ",nome,"!! Você acertou na " , palpite,"ª tentativa o número ", numComp, "! \n")
 				pare
-				}
-								
-				senao se (tentativa == 0){
+			}
+							
+			senao se (tentativa == 0)
+			{
 				escreva ("\nAh, você não acertou! Eu tinha pensado no número ", numComp, "!\nMais sorte na próxima!\n********beijos********\n\n")
 				pare
-				}
-											
-				senao se(numUser > numComp){
+			}
+										
+			senao se(numUser > numComp)
+			{
 				escreva  ("Tentativa ", palpite, ": ",numUser,"\n")
 				escreva ("O número que eu escolhi é menor que " ,numUser, "!\nVocê tem mais ", tentativa, " tentativas.\n")
-			
-				}
-				senao se (numUser < numComp){
+			}
+		
+			senao se (numUser < numComp)
+			{
 				escreva ("Tentativa ", palpite, ": ",numUser,"\n")
 				escreva ("O número que eu escolhi é maior que " ,numUser, "!\nVocê tem mais ", tentativa, " tentativas.\n")
-				}
-				
 			}
+				
 		}
 	}
+}	
 	
 /* $$$ Portugol Studio $$$ 
  * 
