@@ -70,7 +70,7 @@ programa
 		}
 					  
 		//terceira escolha b																    	 		
-		se (porta == "opa")
+		senao se (porta == "opa")
 		{
 			escreva ("A porta parece trancada! OMG, é um enigma!\nQue belo soninho hein caro dragão! Ainda bem que temos tempo!\nO que é que quanto mais você tira, mais você tem?\nOlha tem umas letras miúdas aqui\nsem artigo\nO que será que isso quer dizer?\n")
 		}
