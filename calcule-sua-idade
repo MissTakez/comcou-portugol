@@ -28,32 +28,32 @@ programa
 		//condições para personalizar o resultado
 		se (idadeResultado < 0)
 		{
-		escreva ("  Se não reencanou nesse planeta ainda, não vale!")
+			escreva ("  Se não reencanou nesse planeta ainda, não vale!")
 		}
 				
 		senao se (idadeResultado <= 10)
 		{
-		escreva (" Qual foi a última da Pepa Pig?")
+			escreva (" Qual foi a última da Pepa Pig?")
 		}
 
 		senao se (idadeResultado <= 20)
 		{
-		escreva (" Sai desse celular!")
+			escreva (" Sai desse celular!")
 		}
 
 		senao se (idadeResultado <= 40)
 		{
-		escreva (" Saindo da fralda neah meu anjo?")
+			escreva (" Saindo da fralda neah meu anjo?")
 		}
 		
 		senao se (idadeResultado <= 69)
 		{		
-		escreva (" iiih, tem muito pra andar ainda!")
+			escreva (" iiih, tem muito pra andar ainda!")
 		}
 		
 		senao se (idadeResultado >= 70)
 		{
-		escreva (" A vida só começou!")
+			escreva (" A vida só começou!")
 		}
 	
 	}
