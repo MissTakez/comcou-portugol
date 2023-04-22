@@ -16,7 +16,6 @@ programa
 			escreva("Bem vindo ao mundo Fibonacci, você nunca mais precisará buscar no google Pegue já o número no posição a sua escolha!\n")
 			leia (n)
 		}
-		
 		enquanto (n < 1)
 
 		// resultado da primeiro posição
