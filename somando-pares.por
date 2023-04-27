@@ -10,8 +10,7 @@ programa
 		inteiro i
 		
 		escreva ("Hoje vamos apresentar uma lista, e nela só somar números pares, de no máximo 10 números!")
-			
-				
+						
 		para (i =0; i<10; i++){
 			escreva ("\n O número ", i+1, " da lista:")
 			leia (num[i])
